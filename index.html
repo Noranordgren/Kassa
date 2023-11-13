@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kassa</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background: linear-gradient(to right, rgb(225, 211, 201), rgb(255, 255, 255));
+
+        }
+
+        h1 {
+            color: black;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 36px;
+            text-align: center;
+            text-shadow: 1px 1px 2px gray;
+            font-weight: 300;
+            letter-spacing: .094rem;
+            font-style: normal;
+            margin: 0;
+            margin-top: 23px;
+
+        }
+
+        h2 {
+            color: rgb(0, 0, 0);
+            font-family: 'PT Sans', sans-serif;
+            ;
+            font-size: 20px;
+            text-align: center;
+            font-weight: 100;
+            letter-spacing: .094rem;
+            font-style: normal;
+            margin: 0;
+
+        }
+
+        header {
+            padding: 32px;
+            background-color: white;
+            font-family: Cormorant Garamond, serif;
+            font-size: 24px;
+
+
+        }
+
+        main {
+            background-image: url('kassaheader.jpg');
+            height: 90%;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        button {
+            background-color: rgb(245, 245, 204);
+            padding: 24px;
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-family: 'PT Sans', sans-serif;
+            letter-spacing: .094rem;
+            font-weight: 100;
+            border-radius: 0;
+            background: linear-gradient(to right, #7cc9ff, hsl(214, 90%, 69%));
+            border-radius: 25px;
+            border: 1px;
+            box-shadow: 3px 2px 2px rgba(0, 3, 4, 0.1);
+
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 70px;
+            width: 100%;
+            padding-bottom: 100px;
+            padding-top: 150px;
+
+        }
+
+        .arrow {
+
+            border: solid red;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+        .bakgrund {
+            backdrop-filter: blur(8px);
+            text-align: center;
+            padding: 16px 0;
+            font-family: 'PT Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        VISIT KASSA
+    </header>
+    <main>
+        <div class="bakgrund">
+            <div>
+                <h1>📍KASSA, PAJALA KOMMUN</h1>
+            </div>
+            <div>
+                <h2>
+                    Kassa är en by i Pajala kommun, lokaliserad i Tornedalen.
+
+                </h2>
+            </div>
+        
+            <p>
+                På denna sida kan du snabbt få information om Kassa. 
+                <p>
+
+    Bland annat få upp google maps väldigt snabbt, få information om vädret och klimatet. 
+                <p>
+                    Snart kan du även läsa om kända personer och sevärdheter i byn!            </p>
+                    <p>
+Klicka bara på länkarna nedan:
+                    
+        </div>
+
+        <div class="row">
+
+            <a
+                href="https://www.google.com/maps/place/984+92+Kassa/@67.0554351,23.676755,15z/data=!3m1!4b1!4m6!3m5!1s0x45d471503996b75f:0x21d566f69b6c81ca!8m2!3d67.0554355!4d23.676755!16s%2Fg%2F121tndqx?entry=ttu">
+                <button>PLATS</button>
+            </a>
+
+            <a href="https://www.klart.se/se/norrbottens-l%C3%A4n/v%C3%A4der-kassa/">
+                <button>VÄDER</button>
+            </a>
+
+            <a href="https://weatherspark.com/y/90459/Average-Weather-in-Pajala-Sweden-Year-Round">
+                <button>KLIMAT</button>
+            </a>
+
+            <button>KÄNDA PERSONER</button>
+
+            <button>SEVÄRDHETER</button>
+
+            <a>
+               
+        </div>
+        <div>
+            <p>Down arrow: <i class="arrow down"></i></p>
+        </div>
+    </main>
+</body>
+
+</html>
